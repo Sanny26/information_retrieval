@@ -1,5 +1,16 @@
 import numpy as np
 from nltk import word_tokenize
+import pdb
+
+
+def lcs(xstr, ystr):
+    if not xstr or not ystr:
+        return ""
+    x, xs, y, ys = xstr[0], xstr[1:], ystr[0], ystr[1:]
+    if x == y:
+        return x + lcs(xs, ys)
+    else:
+        return max(lcs(xstr, ys), lcs(xs, ystr), key=len)
 
 def get_ngrams(text, n=2):
     words = word_tokenize(text)
@@ -9,7 +20,10 @@ def get_ngrams(text, n=2):
     		ngrams.append(tuple(words[i:i+n]))
     return ngrams
 
+###--------------------------------Metric Functions----------------------------------------------
+
 def rouge_n(ref_summary, pred_summary):
+	##Input params have to be list of summaries 
 	if len(ref_summary) != len(pred_summary):
 		print('Insufficent data')
 		return
@@ -24,37 +38,45 @@ def rouge_n(ref_summary, pred_summary):
 	return rouge_val
 
 def rouge_lcs(ref_summary, pred_summary):
-	if len(ref_summary) != len(pred_summary):
-		print('Insufficent data')
-		return
-	count1 = count2 = 0
-	for i in range(len(ref_summary)):
-		val = LCS(ref_summary[i], pred_summary[i])
-		r_lcs = val / len(ref_summary[i])
-		p_lcs = val / len(pred_summary[i])
-		val += f_score(p_lcs, r_lcs)
+	##Input params are a single test case
+	ref_sent = ref_summary.split('.')
+	pred_sent = pred_summary.split('.')
+	r_lcs = p_lcs = 0
+	for sent in ref_sent:
+		union_lcs = ""
+		for sent2 in pred_sent:
+			union_lcs += lcs(sent, sent2)
+		union_lcs = set(union_lcs.strip().split(' '))
+		r_lcs += len(union_lcs)
+		p_lcs += len(union_lcs)
 
-	return val
 
+	r_lcs /= float(len(ref_summary.split(' ')))
+	p_lcs /= float(len(pred_summary.split(' ')))
 
-
+	beta = p_lcs / (r_lcs + 1e-12)
+	num = (1 + (beta**2)) * r_lcs * p_lcs
+	denom = r_lcs + ((beta**2) * p_lcs)
+	f_lcs = num / (denom + 1e-12)
+	
+	return f_lcs
 
 def recall(rel_doc_list, ret_doc_list):
 	A_set = set(rel_doc_id)
-    B_set = set(ret_doc_list)
-    AiB = len(A_set.intersection(B_set))
-    return float(AiB)/len(A_set)
+	B_set = set(ret_doc_list)
+	AiB = len(A_set.intersection(B_set))
+	return float(AiB)/len(A_set)
 
 def precision(rel_doc_list, ret_doc_list):
 	A_set = set(rel_doc_list)
 	B_set = set(ret_doc_list)
 	AiB = len(A_set.intersection(B_set))
-    return float(AiB)/len(B_set)
+	return float(AiB)/len(B_set)
 
 def f_score(precision ,recall , alpha=0.5):
-	a = flaot(alpha* precision)
+	a = float(alpha* precision)
 	b = float((1-alpha)*recall)
-	return 1/(a+b)
+	return 2/(1/a+1/b)
 
 def avg_precision(comp_list):
 	precision = []
@@ -72,9 +94,9 @@ def MAP(queries, rel_doc_id, retrieved_doc):
 	result = 0
 	for i,query in enumerate(queries):
 		result += avg_precision(np.array(rel_doc_id[i]) == np.array(retrieved_doc[i]))
-		print result
 	return result/ float(len(queries))
 
 	
 if __name__ == "__main__" :
 	print MAP([1,2], [[1, 2, 3, 4, 5],[6, 7, 8, 9, 10]], [[1, 6, 7, 4, 5], [6, 7, 8, 9, 10]])
+        pdb.set_trace()

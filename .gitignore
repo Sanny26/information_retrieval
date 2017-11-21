@@ -2,7 +2,8 @@ pickles/*
 naive_bayes/enron1/*
 data/*
 language_identifier/DLI32/*
-Language_identifier/DLI32-2/*
+language_identifier/DLI32-2/*
+language_identifier/lprofiles.txt
 
 
 # Byte-compiled / optimized / DLL files
