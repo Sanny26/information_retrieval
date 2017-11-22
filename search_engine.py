@@ -1,17 +1,23 @@
-#from weight_search import *
+"""Search Engine."""
 
-from search import *
-from utils import *
-from lex_rank.lexrank import *
-import pdb
+from search import get_search_results
+from utils import preprocess, get_header
+from lex_rank.lexrank import LexRank
+import pickle
+# import pdb
+
 
 def print_file(name):
+    """."""
     print '> FILE NAME: {}'.format(name)
 
+
 def print_summary(name):
+    """."""
     l = LexRank(name)
     summary = l.lex_rank()
     print '>', summary, '\n'
+
 
 if __name__ == "__main__":
     weights = pickle.load(open('pickles/index.p', 'rb'))
@@ -20,7 +26,7 @@ if __name__ == "__main__":
     search_string = raw_input("Enter the search string\n")
     stm_text = preprocess(search_string)
     ranked_docs, doc_contents = get_search_results(stm_text, weights)
-    #pdb.set_trace()
+    # pdb.set_trace()
 
     print get_header(len(ranked_docs))
     print "___"*48
@@ -40,6 +46,5 @@ if __name__ == "__main__":
                 counter = 0
             else:
                 break
-
 
     print "***"*48
