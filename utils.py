@@ -15,7 +15,7 @@ def print_line(doc_id, name):
 
 def preprocess_file(f_path, position = False):
     """Parses the file to get text and preprocesses the text.
-        Args - 
+        Args -
             f_path: Path of the file that is to be parsed.
         Return -
             stm_text: Parsed and processed text.
@@ -34,8 +34,8 @@ def preprocess_file(f_path, position = False):
 
 
 def preprocess(text, position=False):
-    """Tokenizes and stems the given text. 
-        Args - 
+    """Tokenizes and stems the given text.
+        Args -
             text:       Text to be processed.
             position:   Bool args to return positions of words in the original doc.
         Return -
@@ -44,18 +44,18 @@ def preprocess(text, position=False):
     """
     tknzr = TweetTokenizer()
     tkn_text = tknzr.tokenize(text)
-    
+
     stp_wrds = set(stopwords.words('english'))
     stp_text = [i for i in tkn_text if i not in stp_wrds]
     if len(stp_text)==0:
         return stp_text
 
-    text_pos = [pos for pos, i in enumerate(stp_text)] 
+    text_pos = [pos for pos, i in enumerate(stp_text)]
     #stp_text, text_pos = map(list, zip(*stp_text_pos))
 
     stemmer = PorterStemmer()
     stm_text = [stemmer.stem(word) for word in stp_text]
-    
+
     if position:
         return stm_text, text_pos
     return stm_text
@@ -63,8 +63,8 @@ def preprocess(text, position=False):
 
 def print_more(prev_i, ranked_docs, doc_names, doc_contents):
     """Print more information or results based on a given command.
-        Args - 
-            prev_i:  
+        Args -
+            prev_i:
             ranked_docs: A list of tuples(doc_id, query word match frequency) that are ranked.
             doc_names:  Dictionary of <doc_ids, doc_names>.
             doc_contents: Dictionary of  <doc_id, query words ocurring in the doc>.
@@ -91,8 +91,8 @@ def print_more(prev_i, ranked_docs, doc_names, doc_contents):
 
 def print_docs_only(prev_i, ranked_docs, doc_names):
     """Print more information or results based on a given command.
-        Args - 
-            prev_i:  
+        Args -
+            prev_i:
             ranked_docs: A list of tuples(doc_id, query word match frequency) that are ranked.
             doc_names:  Dictionary of <doc_ids, doc_names>.
     """
@@ -111,7 +111,7 @@ def print_docs_only(prev_i, ranked_docs, doc_names):
 def print_results(doc_names, ranked_docs, doc_contents):
     """
     Prints search results.
-        Args - 
+        Args -
             result_len: Conatains the length of the search result.
             doc_names:  Dictionary of <doc_ids, doc_names>.
             ranked_docs: A list of tuples(doc_id, query word match frequency) that are ranked.
@@ -122,7 +122,7 @@ def print_results(doc_names, ranked_docs, doc_contents):
     i = 0
     for i in range(0,min(len(ranked_docs), 5)):
         print_line(i, doc_names[ranked_docs[i][0]])
-    
+
     prev_i = i
     if (prev_i+1) >= len(ranked_docs):
         print('==='*48)

@@ -1,51 +1,59 @@
+"""Main code for finding TF-IDF scores."""
 from collections import Counter
 from math import log
 from utils import preprocess_file
 import os
-
+import numpy as np
 import pickle
 
+
 def get_tf_idf_weights(path):
+    """Get the wieghts for TF."""
     doc_no = 1
     doc_names = dict()
     tf_list = dict()    # how many term t occurs in doc d
     df_list = dict()   # how many docs contain term t
     sub_dirs = os.listdir(path)
-    N = 0
+    term_list = list()
 
     for dr in sub_dirs:
-        dr_path = path+dr+"/"
+        dr_path = path + dr + "/"
         files = os.listdir(dr_path)
         for f in files:
             f_path = dr_path+f
             doc_names[doc_no] = f_path
             doc_no += 1
             print(doc_no)
-            
+
             processed_text = preprocess_file(f_path)
             tf = Counter(processed_text)
             for term, frequency in dict(tf).items():
-                if term not in df_list.keys():
-                    N += 1
-                    df_list[term] = 1
-                else:
-                    df_list[term] += 1
+                if term not in tf_list:
+                    tf_list[term] = []
+                    term_list.append(term)
+                tf_list[term].append((doc_no, 1+log(frequency, 10)))
 
-                if frequency>0:
-                    tf_list[term+"$"+str(doc_no)] = 1+log(frequency, 10)
+    matrix = np.zeros((len(tf_list), doc_no+1), dtype=float)
+    N = len(tf_list)
+    for i, term in enumerate(list((tf_list.keys()))):
+        l = tf_list[term]
+        doc_freq = len(tf_list[term])
+        for doc_id, freq in l:
+            matrix[i, doc_id] = freq * log((N/doc_freq), 10)
 
-    for key, val in tf_list.items():
-        term = key.split('$')[0]
-
-        tf_list[key] *= log(float(N)/df_list[term], 10)
-    ###change tf_list stroge as doc_id and term sep
-    return tf_list, doc_names
+    # change tf_list stroge as doc_id and term sep
+    return matrix, doc_names, term_list
 
 
+def main():
+    """Main."""
+    path = "test/"
+    weights, doc_names, term_list = get_tf_idf_weights(path)
 
-if __name__ == "__main__" :
-	path = "data/"
-	weights, doc_names = get_tf_idf_weights(path)
+    pickle.dump(weights, open("pickles/tf-idf.p", "wb"))
+    pickle.dump(doc_names, open("pickles/tf-idf-file-names.p", "wb"))
+    pickle.dump(term_list, open("pickles/tf-idf-terms.p", "wb"))
 
-	pickle.dump(weights, open("pickles/tf-idf.p", "wb"))
-	pickle.dump(doc_names, open("pickles/tf-idf-file-names.p", "wb"))
+
+if __name__ == "__main__":
+    main()
