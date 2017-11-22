@@ -1,5 +1,0 @@
-﻿Szép áttekinhető de sajnos néhány helyen pontatlan . 
-
-Még egy kérdés: Emeltek legutóbb a Cabal követelményén? Eddig szépen futott amikor a speciális effektek 2esre voltak húzva most meg 1esen megy csak .
-
-sziasztok nekem az a problémám hogy rányomok a startra és amint megjelenik a cabal ablak egyből kilép csak úgy nem ír semmit csak kilép kipróbáltam rá a fenti

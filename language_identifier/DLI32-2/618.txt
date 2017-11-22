@@ -1,9 +1,0 @@
-﻿setiap zat adiktif diukur levelnya di setiap indikator/kriteria tersebut dengan menggunakan skala 1 hingga 6
-dimana semakin rendah angkanya maka semakin kuat kecenderungannya.
-
-HENNINGFIELD RATINGS (the National Institute on Drug Abuse) :
-
-Withdrawal - Reinforcement - Tolerance - Dependence - Intoxication
-
-Nikotin : 3 - 4 - 2 - 1 - 5
-Heroin : 2 - 2 - 1 - 2 - 2

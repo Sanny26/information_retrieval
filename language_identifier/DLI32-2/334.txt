@@ -1,3 +1,0 @@
-﻿akkor még betudtam lépni és semmi probléma nem volt vele.
-
-Az miért van hogy a mercury meg a marsra ha bekarunk lépni 1 chra 80% esélyel mindig kijön hogy faild connect to server, please try later. De a jupiteren 100% esélyel mindig belehet lépni a channelekre pillanat alatt. Nem értem mit basztak el.

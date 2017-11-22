@@ -1,4 +1,0 @@
-﻿Doar ca si-ar mai raspandi platforma , iar cei care il vor folosi cu timpul, fiind obisnuit cu acest framework, daca va fi sa isi deschida un magazin online, o sa aleaga Prestashop pentru ca stiu sa il foloseasca deja.
-
-
-O alta sugestie . In versiunea 1.2.4 a disparut butonul "Inapoi la categorie" .

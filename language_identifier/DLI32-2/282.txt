@@ -1,7 +1,0 @@
-﻿Integrari wordpress
-One page fast checkout
-Sa accepte png-uri
-Sa existe pe PRESTASHOP.COM un director de module (platibile, gratis, etc, fara sa le cauti asa mult)
-Sa downloadezi modulele direct din magazin (vezi wordpress)
-Sa upgradezi magazinul tot din panoul de administrare (vezi iar wordpress)
-Adaugarea de field-uri mai usoara.

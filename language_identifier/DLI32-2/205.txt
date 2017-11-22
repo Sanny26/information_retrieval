@@ -1,7 +1,0 @@
-﻿hesaplama şöle oluyor birinci sınav sonucunun 0.30 (yüzde otuzu) ikinci sınavın veya bütünlemenin 0.70 (yüzde yetmişi) alınarak hesaplanıyor.
-
-örnek olarak yapalım senin durumu
-0 * 0.30 = 0 
-71* 0,70 = 49,7
-
-0+49,7=49,7 den 50 oluyor . (nokta) dan sonraki sayı 5 den büyük olduğu için bir üst sayıya yani 50 ye tamamlanmış ve geçmiş oluyorsun başarılar dilerim...

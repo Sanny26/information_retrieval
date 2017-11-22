@@ -1,1 +1,0 @@
-﻿Hvis du mener redundans, så ja, bortset fra at flere løsninger, som nævnes af Dennis, ikke har en skid med redundans at gøre. Det er himmeråbende retarderet at foreslå, at der skal laves flere løsninger af det samme problem, for at undgå sårbarhed over for angreb. At systemet der er implementeret så skal være implementeret på

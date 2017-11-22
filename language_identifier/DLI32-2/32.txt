@@ -1,3 +1,0 @@
-﻿Or how to move a robot arm around an obstacle?  These are MDP/optimal-control problems.
-
-2.) State estimation problems ("filtering," "smoothing," and trajectory estimation).  Whereas in my last bullet point the goal was to get a system to a particular state, here the goal is to figure out what state a system is in.

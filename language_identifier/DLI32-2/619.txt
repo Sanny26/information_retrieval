@@ -1,6 +1,0 @@
-﻿Kokain : 4 - 1 - 4 - 3 - 3
-Alkohol : 1 - 3 - 3 - 4 - 1
-Kafein : 5 - 6 - 5 - 5 - 6
-Mariyuana : 6 - 5 - 6 - 6 - 4
-
-dari segi Reinforcement, Tolerance, dan Dependence,

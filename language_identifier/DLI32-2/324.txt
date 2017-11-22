@@ -1,4 +1,0 @@
-﻿A hálózati kapcsolatoknál az általad használt kapcsolatra jobb klikk, majd javítás.
-(Ha te vagy a szolgáltatód valamilyen proxyn keresztül kommunikál(sz), az is gázos lehet.)
-
-Hali, nekem olyan problémám lenne,h amikor bentvok a játékba kb. olyan 5 percen belül kiír egy olyat,h "cabalmain.exe alkalmazáshiba" hiába teszem újra a játékot és hiába telepítem újra a Windowst ugyan azt írja ki :S

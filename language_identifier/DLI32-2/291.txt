@@ -1,8 +1,0 @@
-﻿Sanatate si virtute.
-
-este vreo cale sa poti adauga noi campuri ? de expl as vrea sa am si campul Garantie pentru produse. cum se poate face acest lucru ?
-
-Buna ziua,
-
-Scuze ca ma bag si eu.
-1.Sa se poata adauga link-uri in categorie/subcategorie. (ex.www.e-de-toate.ro)

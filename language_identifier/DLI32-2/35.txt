@@ -1,5 +1,0 @@
-﻿He might also point
-out all the problems that don't most naturally have this structure.  Likewise, some
-machine learning people might say that the idea of different "states"
-at different "times," again, "just" describes a particular structure of
-Bayes net.  You can also combine #1 and #2 to arrive at POMDPs, which

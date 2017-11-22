@@ -1,2 +1,0 @@
-﻿DDoS er da fløjtenes ligeglad med om det er to forskellige systemer, der bliver lagt ned, eller om det er to servere, der kører det samme system.
-Så ja - lad os da bruge ~120 millioner på at udvikle en lidt værre udgave af noget, der allerede virker. Uden at løse nogen problemer.

@@ -1,3 +1,0 @@
-﻿(vezi: Descriere scurta, Descriere, Alt camp tot cu wysiwyg, alt camp, alt camp.. etc)
-As prefera sa fie structurat mai mult ca platforma wordpress, fara smarty (dar asta este doar o parere a mea), cu cat mai multe taguri si cu un wiki plin de taguri, snippeturi, etcuri...
-Editarea mailurilor

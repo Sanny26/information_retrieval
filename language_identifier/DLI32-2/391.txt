@@ -1,3 +1,0 @@
-﻿Det finns Subler-alternativ för Windows-plattformen har jag för mig. T.ex. Yamb, men har dock ej provat den appen.
-
-Kan du hänvisa mig till trådar i ämnet gällande problemet med embeddade subbar i windows-versionen? Jag skulle vilja förstå vad problemet är och hur mycket felsökning som gjorts. Jag vägrar

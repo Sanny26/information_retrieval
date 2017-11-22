@@ -1,1 +1,0 @@
-﻿i Plex loggen kan vara av relevans. Men rätt lite information att gå på, trots att jag har Debug logging igång. Där har varit några trådar om samma sak under Windows sektionerna i "den stora" delen av forumet, men de har blivit rätt ignorerade där så för min del har jag bara lagt det till högen av buggar som tydligen inte tänker fixas.

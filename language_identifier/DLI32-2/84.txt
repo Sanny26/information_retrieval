@@ -1,5 +1,0 @@
-﻿sie haben auch ein paar Nachteile... 
-
-Da die Fläche, die Licht abstrahlt, sehr klein ist, blenden LEDs halt relativ stark. 
-
-Und weil weisse LEDs auf einer blauen LED basieren und dann irgendwelche fluoresziernde Stoffe die anderen Farben dazumischen, dominiert das blau. Es wird wohl schwierig, mit einer LED den warmen Ton einer Glübbirne zu treffen.

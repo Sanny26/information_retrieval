@@ -1,7 +1,0 @@
-﻿Då måste jag fixa en sekunder srt/sub-fil och lägga i katalogen för att svensk text ska visas.
-
-Gör jag fel eller finns inte denna funktionen i Plex, att den kan läsa in inbakad svensk text?
-
-Edit: Det fungerar på AVI-filer.
-
-Det är korrekt att plex saknar funktioner för att läsa in undertexter som ligger i filen.

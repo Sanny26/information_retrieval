@@ -1,6 +1,0 @@
-﻿- sa iti poti selecta tu macar culorile si textul....
-
-imi cer scuze daca am aberat :)
-
-Prestashop accepta orice format grafic ii dai.
-Nu are insa cum sa importe formate la alegere. De aceea a trebuit ales +pentru import+ un singur format care sa rezolve cat mai multe probleme.

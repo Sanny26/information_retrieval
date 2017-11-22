@@ -1,3 +1,0 @@
-﻿for at få en anden implementation.
-Hvis blot Java blev fjernet fra løsningen og en simpel HTTPS blev benyttet i stedet, så ville NemID være tæt på en optimal løsning.
-Lige meget hvilken implementation der bruges, så vil den være følsom overfor DDOS, men et distribueret system, med flere IP addresser, er naturligvis sværre at floode.

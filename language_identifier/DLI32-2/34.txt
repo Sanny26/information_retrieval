@@ -1,6 +1,0 @@
-﻿or the Viterbi algorithm, among other closely-related algorithms.
-
-There are generalizations and combinations of these ideas in all sorts of directions.
-E.g., an operations researcher might say that Markov decision problems
-are "just" optimization problems with a particular structure and go off
-to look at Lagrange multipliers and duality gaps.

@@ -1,1 +1,0 @@
-﻿Jasså? Jag var under uppfattningen att Plex faktiskt stödde SRT subbar. Eftersom dessa funkar utanför MKV filer så enligt vad du säger så borde de då även funka i en men det gör de inte. Har en stor mängd MKV filer med subbar som Plex fullkomligt ignorerar allihop, oavsett om de ligger i vobsub,

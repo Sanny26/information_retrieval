@@ -1,5 +1,0 @@
-﻿are the most general (single-player) discrete--time-and-state problem.  But despite all this, I think the two problems I listed above capture the essence of most things.
-Why has nobody included basic calculus...?
-
-Robotics probably means optical/sensory interpretation would be part of the maths. 
-Im not sure of the names of the areas of mathematics for the different cognitive/perception processing.
