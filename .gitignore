@@ -14,6 +14,10 @@ __pycache__/
 
 # C extensions
 *.so
+*.out
+*.cleaned
+*.w2v
+*.bin
 
 # Distribution / packaging
 .Python
