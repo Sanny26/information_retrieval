@@ -1,11 +1,13 @@
+"""Main code for finding TF-IDF scores."""
 from collections import Counter
 from math import log
 from utils import preprocess_file
 import os
-
 import pickle
 
+
 def get_tf_idf_weights(path):
+    """Get the wieghts for TF-IDF."""
     doc_no = 1
     doc_names = dict()
     tf_list = dict()    # how many term t occurs in doc d
@@ -21,7 +23,7 @@ def get_tf_idf_weights(path):
             doc_names[doc_no] = f_path
             doc_no += 1
             print(doc_no)
-            
+
             processed_text = preprocess_file(f_path)
             tf = Counter(processed_text)
             for term, frequency in dict(tf).items():
@@ -31,21 +33,25 @@ def get_tf_idf_weights(path):
                 else:
                     df_list[term] += 1
 
-                if frequency>0:
+                if frequency > 0:
                     tf_list[term+"$"+str(doc_no)] = 1+log(frequency, 10)
 
     for key, val in tf_list.items():
         term = key.split('$')[0]
 
         tf_list[key] *= log(float(N)/df_list[term], 10)
-    ###change tf_list stroge as doc_id and term sep
+    # change tf_list stroge as doc_id and term sep
     return tf_list, doc_names
 
 
+def main():
+    """Main."""
+    path = "data/"
+    weights, doc_names = get_tf_idf_weights(path)
 
-if __name__ == "__main__" :
-	path = "data/"
-	weights, doc_names = get_tf_idf_weights(path)
+    pickle.dump(weights, open("pickles/tf-idf.p", "wb"))
+    pickle.dump(doc_names, open("pickles/tf-idf-file-names.p", "wb"))
 
-	pickle.dump(weights, open("pickles/tf-idf.p", "wb"))
-	pickle.dump(doc_names, open("pickles/tf-idf-file-names.p", "wb"))
+
+if __name__ == "__main__":
+    main()

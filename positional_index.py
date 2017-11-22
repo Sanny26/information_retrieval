@@ -25,41 +25,37 @@ def create_positional_index(path):
         for f in files:
             f_path = dr_path+f
             doc_names[doc_no] = f_path
-            
+
             processed_text, positions = preprocess_file(f_path, position=True)
-            
+
             for lis_indx, word in enumerate(processed_text):
                 if word not in index:
                     index[word] = dict()
 
                 if word in index:
-                   if doc_no not in index[word]:
-                       index[word][doc_no]=[positions[lis_indx]]
-                   else:
-                       index[word][doc_no].append(positions[lis_indx])
+                    if doc_no not in index[word]:
+                        index[word][doc_no] = [positions[lis_indx]]
+                    else:
+                        index[word][doc_no].append(positions[lis_indx])
 
-            if doc_no==10000:
-               break
-            doc_no+=1
+            if doc_no == 10000:
+                break
+            doc_no += 1
 
     for key in index:
-        index[key]['doc_freq']=len(index[key])
+        index[key]['doc_freq'] = len(index[key])
 
     return index, doc_names
 
 
-
-if __name__ == "__main__" :
- 
+def main():
+    """Main."""
     path = "data/"
     index, doc_names = create_positional_index(path)
 
     pickle.dump(index, open('pickles/pos_index.p', 'wb'))
     pickle.dump(doc_names, open('pickles/pos_file_names.p', 'wb'))
 
-    # doc_names = pickle.load(open('file_names.p', 'rb'))
-    # index = pickle.load(open('index.p', 'rb'))
-    # doc_freq = pickle.load(open('doc_freq.p', 'rb'))
-    # doc_no = max(doc_names.keys())+1
 
-    pdb.set_trace()
+if __name__ == "__main__":
+    main()

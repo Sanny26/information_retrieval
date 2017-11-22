@@ -64,7 +64,12 @@ class LexRank():
         return text
 
 
-if __name__ == "__main__":
+def main():
+    """Main."""
     l = LexRank('text.txt')
     summary = l.lex_rank()
     print(summary)
+
+
+if __name__ == "__main__":
+    main()
