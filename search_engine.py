@@ -2,7 +2,7 @@
 
 from search import *
 from utils import *
-from lexrank import *
+from lex_rank.lexrank import *
 import pdb
 
 def print_file(name):
