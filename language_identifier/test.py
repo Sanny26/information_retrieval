@@ -53,5 +53,15 @@ if __name__ =='__main__':
 
     lang_label = get_lang_label(profile, lprofiles)
 
-    print( lang_label )
+    name = test_file.split('/')[-1]
+
+    lan_id = int(name.split('.')[0])
+    if lan_id%20 == 0:
+        label = floor(lan_id/20) -1;
+    else:
+        label = floor(lan_id/20)
+
+
+    print 'Predicted label', lang_label
+    print 'Actual Label', int(label)
 

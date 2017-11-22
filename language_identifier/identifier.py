@@ -8,7 +8,7 @@ import io
 import pickle
 
 counter = dict()
-top_k_val = 300
+top_k_val = 100
 
 def get_ngrams(text, n=2):
     words = word_tokenize(text)
@@ -34,7 +34,6 @@ def dump_lprofiles():
 
     l_profiles = dict()
     for i in range(32):
-        print len(counter[i])
         l_profiles[i] = [each[0] for each in counter[i].most_common(top_k_val)]
 
     pickle.dump(l_profiles, open('lprofiles.txt', 'wb'))
