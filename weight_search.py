@@ -5,7 +5,7 @@ from utils import preprocess, print_results
 import pickle
 
 
-def get_search_results(query, index):
+def get_search_results(query, matrix, terms, docs):
     """
     Search the query in the index provided.
 
@@ -16,31 +16,39 @@ def get_search_results(query, index):
       ranked_docs: A list of tuples(doc_id, query word match frequency) that are ranked.
       doc_content: A dictionary of docs as keys and
     """
-    ranking = Counter()
-    doc_contents = dict()
+    result = set(docs.keys())
     for word in query:
-        if word in index:
-            posting_list = index[word]
-            ranking += Counter(posting_list)
-            for each in posting_list:
-                if each not in doc_contents:
-                    doc_contents[each] = [word]
-                else:
-                    doc_contents[each].append(word)
-    ranked_docs = ranking.most_common()
-    return ranked_docs, doc_contents
+        term_index = terms.index(word)
+        tf = matrix[term_index]
+        indices = set((tf > 0).nonzero()[0])
+        result = result.intersection(indices)
+
+    return list(result)
 
 
-def main():
+def main(TF=False):
     """Main."""
-    weights = pickle.load(open('pickles/tf-idf.p', 'rb'))
-    doc_names = pickle.load(open('pickles/tf-idf-file-names.p', 'rb'))
+    if TF:
+        weights = pickle.load(open('pickles/tf.p', 'rb'))
+        doc_names = pickle.load(open('pickles/tf-file-names.p', 'rb'))
+        terms = pickle.load(open("pickles/tf-terms.p", "rb"))
+        search_string = raw_input("Enter the search string\n")
 
-    search_string = raw_input("Enter the search string\n")
-    stm_text = preprocess(search_string)
-    ranked_docs, doc_contents = get_search_results(stm_text, weights)
-    print_results(doc_names, ranked_docs, doc_contents)
+        stm_text = preprocess(search_string)
+        ranked_docs = get_search_results(stm_text, weights, terms, doc_names)
+        for line in ranked_docs:
+            print("Doc: {}".format(doc_names[line]))
+    else:
+        weights = pickle.load(open('pickles/tf-idf.p', 'rb'))
+        doc_names = pickle.load(open('pickles/tf-idf-file-names.p', 'rb'))
+        terms = pickle.load(open("pickles/tf-idf-terms.p", "rb"))
 
+        search_string = raw_input("Enter the search string\n")
+        stm_text = preprocess(search_string)
+        ranked_docs = get_search_results(stm_text, weights, terms, doc_names)
+        for line in ranked_docs:
+            print("Doc: {}".format(doc_names[line]))
 
 if __name__ == "__main__":
+    main(TF=True)
     main()
