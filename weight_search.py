@@ -36,5 +36,5 @@ if __name__ == "__main__":
 
     search_string = raw_input("Enter the search string\n")
     stm_text = preprocess(search_string)
-    ranked_docs, doc_contents = get_search_results(stm_text, index)
+    ranked_docs, doc_contents = get_search_results(stm_text, weights)
     print_results(doc_names, ranked_docs, doc_contents)
