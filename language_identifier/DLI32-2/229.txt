@@ -1,0 +1,3 @@
+﻿Ne 3DS:n lataus kortit toimii kyllä myös Wii U:n eShopissa, testattu on. Huono puoli niissä tosin on se että joutuu kuitenkin sinne pelikauppaan raahautumaan ja ainoat vaihtoehdot on ne 15e ja 25e
+
+Muistan, kun ostin 3DS:n julkaisussa niin OP:n Visa Electron ei toiminut eShopissa. Pian tuli kuitenkin päivitys, jonka jälkeen se toimi,

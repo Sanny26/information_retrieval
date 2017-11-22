@@ -1,0 +1,5 @@
+﻿Hvis du mener redundans, så ja, bortset fra at flere løsninger, som nævnes af Dennis, ikke har en skid med redundans at gøre. Det er himmeråbende retarderet at foreslå, at der skal laves flere løsninger af det samme problem, for at undgå sårbarhed over for angreb. At systemet der er implementeret så skal være implementeret på en fornuftig måde er noget helt andet.
+
+Jeg tror nu også det er naivt at tro, at der ikke er en eller anden form for redundans på så følsomt et system. Og Dennis snakker ikke om redundans. Han snakker om flere løsninger.
+
+JA TAK... Jeg vil gerne have alternativer til NEMID

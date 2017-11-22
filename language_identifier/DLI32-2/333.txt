@@ -1,0 +1,3 @@
+﻿Ez a belépési hiba talá a kliens miatt van vagy amig az 1 honapig nemléptem be megfújhatták az accountomat?
+
+Hát őőőőő.. a bejelentkező ablak alatt nem kéne kijönnie a betűknek, hogy beírhassam a jelszavam? Mert begépeltem, de rögtön kiírja, hogy 'disconnected'. 2-3 napja voltam fent legutóbb,

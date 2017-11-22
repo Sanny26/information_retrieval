@@ -1,0 +1,1 @@
+﻿ja, es gibt die LEDs, die mit den 3 Grundfarben arbeiten. Die braucht man aber eher dann, wenn man die Farben ändern will, also programmierbare Lichtquellen, die je nach Stimmung mal eher blau oder rot sind. Wenn es nur weiss sein soll, sieht man die gemischten LEDs eher selten. Vielleicht liegt das daran,

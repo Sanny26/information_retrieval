@@ -1,0 +1,6 @@
+﻿DDoS er da fløjtenes ligeglad med om det er to forskellige systemer, der bliver lagt ned, eller om det er to servere, der kører det samme system.
+Så ja - lad os da bruge ~120 millioner på at udvikle en lidt værre udgave af noget, der allerede virker. Uden at løse nogen problemer.
+
+Jeg mener han er datamatiker.
+Jeg er i øvrigt af den overbevisning om, at der selvfølgelig skal være redudans på et så vigtigt system. 
+Det grænser til det tåbelige, at der er et single-point-of-failure (som #5 så fint udtrykker det) på et system, der dækker hele vores kommunikationsadgang med det offentlige.

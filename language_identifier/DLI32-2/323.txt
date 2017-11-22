@@ -1,0 +1,5 @@
+﻿xD szóval most azt akarom meg kideriteni és megpróbálni. ha ez sem segít akkor beemozok.
+
+Többen keresték fel a tech részt ezzel a problémával. Állítólag ez egy bug és már jelezve is van a fejlesztők felé. Nézd meg azt amit mondtál + próbáld meg azt (ha eddig nem így volt) hogy alapértelmezett böngészővé teszed az IE-t.
+
+Még a következőt próbálhatod meg:

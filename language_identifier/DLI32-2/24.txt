@@ -1,0 +1,3 @@
+﻿Constructing a basic implementation of an AI may not require much stats, sure; in fact, for most game AI, you can implement everything with a little linear algebra and some simple formal logic.
+
+If you want to get good results, though, you need stats: analyzing when and why things happen, how they correlate, and so forth.

@@ -1,0 +1,7 @@
+﻿Szép áttekinhető de sajnos néhány helyen pontatlan . 
+
+Még egy kérdés: Emeltek legutóbb a Cabal követelményén? Eddig szépen futott amikor a speciális effektek 2esre voltak húzva most meg 1esen megy csak .
+
+sziasztok nekem az a problémám hogy rányomok a startra és amint megjelenik a cabal ablak egyből kilép csak úgy nem ír semmit csak kilép kipróbáltam rá a fenti segítséget újraraktam úgy ahogy le van írva de semmi :/
+
+Nos nekem olyan problémám van,hogy kb 2 napja késik az egész játék,ez annyit tes,hogy pl benyomom a combot és kb-7-8 mp mulva jelenik meg a combo csík,ugyanez a helyzet a skillekkel ill a buffokkal,meg van mikor a chatbe írásom is 7-8 mp vel később jelenik meg :S

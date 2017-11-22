@@ -1,0 +1,10 @@
+﻿Would include mass data algorithms, filtering, pattern feature conversion and matching.
+Isnt Fuzzy Mathematics part of another more general classificaltion 
+
+Hey all. I'm not sure if I should have posted this in the lounge or not.
+
+A friend told me about MIT's Battlecode competition. It's an AI programming competition. 
+
+It's nature and rules really interested me, and although I've never programmed AI before, I am really interested in joining it. 
+
+I know it's late for me to compete this year. I've majored in Robotics, so I have some basic AI knowledge, but since programming was my main passion, I went into mobile development, so my knowledge hasn't really improved.

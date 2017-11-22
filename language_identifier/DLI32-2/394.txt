@@ -1,0 +1,6 @@
+﻿så finns där subtitle track med. Jag kan välja subtitle också, men under uppspelning, finns helt enkelt inte några undertexter med över huvudtaget.
+
+Jag skulle tippa på att raderna:
+
+01:08:43 T:5620 M:27% ERROR: Couldn't load font name: __subtitle__(special://xbmc/media/Fonts/), trying to substitute arial.ttf
+01:08:43 T:5620 M:27% ERROR: Couldn't load font name: __subtitleborder__(special://xbmc/media/Fonts/), trying to substitute arial.ttf

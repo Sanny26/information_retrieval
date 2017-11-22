@@ -1,0 +1,8 @@
+﻿Doar ca si-ar mai raspandi platforma , iar cei care il vor folosi cu timpul, fiind obisnuit cu acest framework, daca va fi sa isi deschida un magazin online, o sa aleaga Prestashop pentru ca stiu sa il foloseasca deja.
+
+
+O alta sugestie . In versiunea 1.2.4 a disparut butonul "Inapoi la categorie" . Imi mai apare decat Salveaza si Salveaza si Inapoi. Mi se pare o tampenie. Acum nu sunt sigur daca este din cauza modificarilor mele la prestashop. Sau asa au decis ei.
+
+
+
+Catalog produse:. Cand adaug un nou produs imi incarca toate categoriile si subcategoriile.

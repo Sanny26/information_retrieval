@@ -1,0 +1,5 @@
+﻿subbar i windows-versionen? Jag skulle vilja förstå vad problemet är och hur mycket felsökning som gjorts. Jag vägrar tro det förrän jag får se lite loggar  
+
+Jag har testat på tre olika datorer med Windows 7 Ultimate. Jag har stött på detta problem på flertalet filmer.
+
+Jag har laddat ner MediaInfo och lagt in en film.

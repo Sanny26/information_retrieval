@@ -1,0 +1,12 @@
+﻿one page checkout este deja in lucru din cate am inteles, dar se poate customiza un shop pt a o implementa.
+
+Referitor la filtrarea de produse, deja exista module platite in cadrul forum-ului.
+
+Spre ex, nu are shipping si payment ca nu a fost nevoie, www.accesoriidenunta.ro are un inceput de one page checkout, dar fara login clienti (datorita profilului magazinului)
+
+Multumesc, Radu.
+
+Este adevarat ca majoritatea lucrurilor din lista pot fi facute de catre un programator priceput, insa sondajul se refera la optiuni preinstalate in Prestahop sau instalabile de catre un utilizator fara cunostinte extinse de programare.
+
+Si pentru toata lumea: "Nu votezi, nu contezi!". :cheese:
+Daca fac socoteala, forumul romanesc de Prestashop are 7-8 membri.

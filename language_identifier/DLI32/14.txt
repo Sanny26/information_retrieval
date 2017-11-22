@@ -1,0 +1,11 @@
+﻿Gathering evidence, understanding correlations, testing hypotheses, evaluating with what certainty I know that a change to a complex system will have the desired results, etc. is what I do for a living.
+
+
+In reality, there are about four kinds of problems in the world that you can solve, and everything consists of reducing other problems to them:
+1.) Linear system of equations
+2.) Eigenvector/eigenvalue problems
+3.) Convex optimization problems (which really includes 1, and mostly also includes 2)
+4.) Low-dimensional dynamic programming
+To follow up on alvaro's comment about control theory:
+ 
+There are a couple of core ideas that a lot of different people study, from slightly different angles, and with slightly different tools.

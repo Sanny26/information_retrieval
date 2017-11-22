@@ -1,0 +1,5 @@
+﻿Goddagens!
+
+Tack för en smidig lösning med PMS!
+
+På alla filmer jag har som är av typ MKV-filer som är i 720p eller 1080p så är det svensk text med. Startar jag filmen i VLC/BS-player kan jag högerklicka och välja svensk text. Men i Plex så är inte detta möjligt.

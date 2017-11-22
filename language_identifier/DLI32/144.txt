@@ -1,0 +1,3 @@
+﻿Timpul inseamna bani si este mult mai probabil ca un utilizator de Wordpress sa gaseasca timp pentru a da comunitatii roadele muncii lui fara a primi nimic in schimb, decat un utilizator de Prestashop care de regula face respectivele module/teme pentru a le vinde. Si daca le-ai vandut cuiva, nu ar fi cinstit sa le dai moca unora dupa ce altora le-ai luat bani.
+
+"Mancarea unuia e otrava altuia", spune englezul. Eu , de exemplu, nu sunt dispus sa accept riscurile de securitate pe care le presupune sistemul de upgrade din Wordpress si nu-l folosesc. Si nu m-ar incanta sa-l vad in alta parte.

@@ -1,0 +1,1 @@
+﻿Pentru faptul ca Prestashop converteste fisierele grafice importate in jpg si nu in png trebuie sa-i multumesti lui Bill Gates. De altfel si eu prefer sa evit formatul png pentru site-urile mele - desi nu mai e mult pana cand procentul utilizatorilor de Internet Explorer 6 va fi suficient de mic.

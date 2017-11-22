@@ -1,0 +1,7 @@
+﻿1.) Linear system of equations
+2.) Eigenvector/eigenvalue problems
+3.) Convex optimization problems (which really includes 1, and mostly also includes 2)
+4.) Low-dimensional dynamic programming
+To follow up on alvaro's comment about control theory:
+ 
+There are a couple of core ideas that a lot of different people study, from slightly different angles, and with slightly different tools.

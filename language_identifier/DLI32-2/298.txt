@@ -1,0 +1,3 @@
+﻿Pentru cine nu stia (eu nu stiam), am aflat ca exista un loc unde se pot propune "features" in cadrul Bug Tracker, si anume aici. O sa ma mai inspir si eu de acolo.
+
+felicitari ggedamed pentru acest subiect. Eu optez pentru filtrare produse cu sau fara ajax si one page checkout.

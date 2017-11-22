@@ -1,0 +1,6 @@
+﻿Depending again on whether you are interested in discrete- or continuous- time- or state-spaces, depending on what noise model you assume, and depending on which of these problems you want to solve (filtering, smoothing, trajectory estimation) you end up with e.g. the "forward algorithm" for hidden Markov models, the Kalman filter for linear systems, or the Viterbi algorithm, among other closely-related algorithms.
+
+There are generalizations and combinations of these ideas in all sorts of directions.
+E.g., an operations researcher might say that Markov decision problems
+are "just" optimization problems with a particular structure and go off
+to look at Lagrange multipliers and duality gaps.

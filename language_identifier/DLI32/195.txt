@@ -1,0 +1,3 @@
+﻿Utanför MKV, inga problem. Men i MKV, så syns inga subbar. Det är något som aldrig har funkat i Plex för mig eller någon annan jag känner för den delen och genom att helt enkelt läsa forumet, så ser du precis detsamma som vi andra, funktionen funkar inte om den nu finns där. Det är möjligt att det funkar under OSX för dig, men för oss på windows eller linux kan jag säga att där funkar det inte för 5 öre och har inte gjort under det år jag använt plex.
+
+Ah, sorry, glömde fråga vad du hade för operativsystem. Sorry. Jo i OSX så fungerar det alldeles utmärkt.

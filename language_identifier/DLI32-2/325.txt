@@ -1,0 +1,5 @@
+﻿Haveromnak az a problémája hogy játszik a játékkal és 15 perc után kifagy neki és csak ctrl+alt+del-el tud kilépni.Ha valaki tudna segíteni megköszönném.
+
+Gondolom win7-et vagy vistát használsz. Alt enterrel tedd windows módba és úgy próbáld meg megnyitni item shopot ill. guild boardot, nálam bevált.
+
+sziasztok nekem az a problémám hogy rányomok a startra és amint

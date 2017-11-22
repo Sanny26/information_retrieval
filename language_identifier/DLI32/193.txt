@@ -1,0 +1,6 @@
+﻿Undertexter i MKV stöds alldeles utmärkt, så länge det är ett undertextformat som Plex stödjer.
+Vilken klient är det som inte visar undertexterna? Har du testat på några andra klienter för att se om det strular med andra?
+
+Jag rekommenderar alla att använda srt-filer, för det stödjs i alla Plexklienter. Men Plex-klienten på datorer stödjer även en bunt andra undertextformat, dock så finns det en begränsning gällande vissa format.
+
+Så för att hjälpa dig så behöver jag veta vilken klient det handlar om, och ta gärna reda på vilket undertextformat som du har i dina mkv-filer. Du kan t.ex. använda "Mediainfo" för att ta reda på vad som ligger i dina filer.

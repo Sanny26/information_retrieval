@@ -1,0 +1,9 @@
+﻿Testattu on, ja Osuuspankin Visa Electron ei toimi kummankaan Nintendon laitteen latauspalveluissa. En tiedä tarkalleen missä vika on, mutta kuitenkin.
+
+Voisi tietenkin käväistä vähän neuvottelemassa tuolla pankin puolella, josko voisin vaihtaa Electron-korttini Debit-korttiin. Sen olen kuullut toimivan myös Osuuspankin puolella, mutta nähtäväksi jää tämä.
+
+Ilmeisesti "vika" on Nintendon puolella, eli heidän palvelunsa eivät hyväksy Osuuspankin Electronia. Kuten mainitsin aikaisemmin, erään 3DS:n päivityksen jälkeen korttini toimi eShopissa, mutta seuraavan päivityksen jälkeen ei.
+
+Osuuspankin asiakkaiden kannattaa kysyä tuota kortin vaihtamista tai avata uusi tili ja ottaa Debit - kortti sille.
+
+Noo, säästyypä rahat  Mullei nyt oo intresssiä mennä vaihtamaan korttia vain tuon vuoksi, täytyy sit laittaa mies asialle (meillä kun on eri pankeissa) tai hankkia Tapiolan tilille kortti.

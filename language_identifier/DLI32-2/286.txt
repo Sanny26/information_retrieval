@@ -1,0 +1,1 @@
+﻿Pentru modulele platite exista PrestaStore, asa ca banuiesc ca aici deplangi lipsa unor directoare oficiale de plugin-uri si teme gratuite, ca la Wordpress. Si mie mi-ar placea, insa nu cred ca se va intampla prea repede. Prestashop este totusi un script de magazin folosit de oameni pentru care prioritatea principala este profitul.

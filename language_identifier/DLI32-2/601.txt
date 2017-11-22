@@ -1,0 +1,14 @@
+﻿Alkohol
+Adiksi: Tinggi
+Withdrawal Efek: 
+1. Sakit kepala
+2. nausea (gelap saat berdiri)
+3. Hidung mampet karena kering
+4. Tubuh kering
+Toleransi:Ringan. Dosis yang sama akan memberikan efek yang sama selama beberapa lama
+
+Xanax
+Adiksi: Rendah
+Withdrawal Efek:
+Nyaris tidak ada, hanya gelisah karena kebiasaan
+Toleransi: Tinggi. Efek yang sama harus ditingkatkan 2 kali lipat setiap hari.

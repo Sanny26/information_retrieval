@@ -1,0 +1,3 @@
+﻿Auch die Steuerung ist super da ich jetzt jeden Bereich im Haus entweder mit einer einzigen Fernbedienung Farbe und Helligkeit einstellen kann oder auch über eine spezielle iPhone app. 
+Bei der Installation habe ich mir erklären lassen, dass man so viele Dinge beachten muss, wie Kabelquerschnitte, Leitungslängen, Widerstände u.s.w. 
+Auch bei den LED Streifen selbst gibt es wohl ganz erhebliche Unterschiede. Die Billigware aus dem Internet, wo 5m RGB SMD Streifen gerade mal 80€ kosten, die taugen wohl nur für kleine Sachen, wo man die 5mtr. gar nicht überschreitet. Für größere Installationen braucht man speziell auf Farbgleichheit geprüfte Ware. 

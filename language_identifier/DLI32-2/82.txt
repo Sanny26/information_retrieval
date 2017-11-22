@@ -1,0 +1,3 @@
+﻿LEDs leuchten mit Gleichstrom. Es braucht also einen Gleichrichter, der Oberwellen generiert, die Last ist nicht schön linear. Aber höhere Frequenzen im kHz-Bereich wie bei den Leuchtstoffröhren kommen nicht vor.
+
+Dann könnte man also sagen das für die grüne Welle die im Moment über uns hineinbricht,LED`s die bessere Lösung wäre?

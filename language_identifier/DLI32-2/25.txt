@@ -1,0 +1,3 @@
+﻿Stats are also crucial for building good models if you're trying to approximate an existing behavior set.
+
+Plus, if you have to work with a game designer in any capacity whatsoever, knowing how to use Excel will make you a vastly more effective teammate.

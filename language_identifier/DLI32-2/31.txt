@@ -1,0 +1,1 @@
+﻿Additionally, problems here may or may not contain randomness, and each of these variants have very slightly different corresponding theories, but the underlying ideas are essentially the same.  Do you want to find the shortest path through a maze?  Or how to steer a fighter jet to perform a barrel roll?

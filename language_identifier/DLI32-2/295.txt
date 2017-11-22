@@ -1,0 +1,3 @@
+﻿Eu am aproape 120 de categorii. Imi incarca destul de greu, plus cat sta sa rendereze tabelele, sau DIV-uri, nu stiu exact, nu am stat sa ma uit. Sa poata sa existe o obtiune sa nu incarce toate chestile . 
+
+Sa fie un buton unde pot apasa pe el ca sa incarce

@@ -1,0 +1,5 @@
+﻿one page checkout este deja in lucru din cate am inteles, dar se poate customiza un shop pt a o implementa.
+
+Referitor la filtrarea de produse, deja exista module platite in cadrul forum-ului.
+
+Spre ex, nu are shipping si payment ca nu a fost nevoie, www.accesoriidenunta.ro are un inceput de one page checkout, dar fara login clienti

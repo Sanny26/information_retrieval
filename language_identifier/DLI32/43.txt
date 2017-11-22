@@ -1,0 +1,5 @@
+﻿Und LEDs werden heiss. Sie strahlen zwar keine infrarote Strahlung ab, aber ein grosser Teil des Lichts verschwindet im Halbleiter und generiert dort Wärme, die abgeführt werden muss. Darum haben LED-Birnen oft einen Kühler aus Aluminium - was sie relativ teuer macht. Und ohne Kühler gehen die Dinger halt schnell kaputt.
+
+Wäre es dan nicht möglich mit den drei grundfarben zu arbeiten und so ein schoenes weiss herzustellen? Von Phillips gibt es ja jetz eine Stimmungsleuchte die genau dies macht und ich habe den Eindruck das diese ein schönes(warmes) Weiss erzeugt. 
+
+Was hat eine LED für ein cosPhi? Ich denke ganz schlecht oder, da im vergleich zur Wirkleistung viel kapazitive Blindenergie aufgenommen wir.

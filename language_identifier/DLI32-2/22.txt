@@ -1,0 +1,2 @@
+﻿There is something called Control Theory that deals with many of the problems involved, especially in robotics. It does involve a lot of statistics, for sure, but some calculus is also required.
+Hmmm... Not to brag, but I think I know enough statistics, at least for what I have needed so far.

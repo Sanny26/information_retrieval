@@ -1,0 +1,9 @@
+﻿Anledningen att det "funkar" med AVI, är för att AVI inte stödjer undertexter alls egentligen utan dessa undertexterna är hårdkodade i bilden, medans i MKV så ligger det som en helt egen dataström som plex inte hanterar. Det skulle gå att skriva en agent för att plocka fram undertexten från filen, men det skulle vara rätt mycket jobb med det faktiskt.
+
+Tack för ett snabbt och utförligt svar!
+
+Vet du, eller någon annan, om denna lösning kommer komma till Plex? Isf, när kan man förvänta sig att den kommer?
+
+Detta är det enda jag saknar i Plex.
+
+Tyvärr tror jag Etherman har missförstått något.

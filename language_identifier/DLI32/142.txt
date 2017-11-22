@@ -1,0 +1,8 @@
+﻿(vezi: Descriere scurta, Descriere, Alt camp tot cu wysiwyg, alt camp, alt camp.. etc)
+As prefera sa fie structurat mai mult ca platforma wordpress, fara smarty (dar asta este doar o parere a mea), cu cat mai multe taguri si cu un wiki plin de taguri, snippeturi, etcuri...
+Editarea mailurilor - sa iti poti selecta tu macar culorile si textul....
+
+imi cer scuze daca am aberat :)
+
+Prestashop accepta orice format grafic ii dai.
+Nu are insa cum sa importe formate la alegere. De aceea a trebuit ales +pentru import+ un singur format care sa rezolve cat mai multe probleme.

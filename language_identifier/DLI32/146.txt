@@ -1,0 +1,13 @@
+﻿Sanatate si virtute.
+
+este vreo cale sa poti adauga noi campuri ? de expl as vrea sa am si campul Garantie pentru produse. cum se poate face acest lucru ?
+
+Buna ziua,
+
+Scuze ca ma bag si eu.
+1.Sa se poata adauga link-uri in categorie/subcategorie. (ex.www.e-de-toate.ro)
+2.Sa se emita facturi fiscale adaptate la piata romaneasca.
+3.Sa se poata adauga gif/swf in subcategorii
+Multumesc!
+
+Nu stiu la ce se refera la punctul 1, dar o idee ar fi sa poti sa existe linkuri, adica sa poti face cu prestashop un fel de Director Web. Avantajul pentru Prestashop ? Niciunu .

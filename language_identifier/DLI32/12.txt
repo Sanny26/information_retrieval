@@ -1,0 +1,8 @@
+﻿I work with a couple of people that know a lot more statistics than I do, but I rarely feel the need to ask for their help.
+
+Impossibly broad question since there are completely disjoint circles in that Venn diagram. 
+However, I'm going to go out on a limb and say "addition".
+
+Constructing a basic implementation of an AI may not require much stats, sure; in fact, for most game AI, you can implement everything with a little linear algebra and some simple formal logic.
+
+If you want to get good results, though, you need stats: analyzing when and why things happen, how they correlate, and so forth.

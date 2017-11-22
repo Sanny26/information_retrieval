@@ -49,11 +49,11 @@ def  create_inverted_index(path):
 
 if __name__ == "__main__":
     
-    path = "/home/sanny/Documents/ir/en.docs.2011/en_BDNews24/"
+    path = "data/"
     index, index_freq, doc_names = create_inverted_index(path)
 
-    pickle.dump(index, open('index.p', 'wb'))
-    pickle.dump(doc_names, open('file_names.p', 'wb'))
-    pickle.dump(index_freq, open('doc_freq.p', 'wb'))
+    pickle.dump(index, open('pickles/index.p', 'wb'))
+    pickle.dump(doc_names, open('pickles/file_names.p', 'wb'))
+    pickle.dump(index_freq, open('pickles/doc_freq.p', 'wb'))
     print("Created inverted index successfully. \nData pickling done\n")
     pdb.set_trace()

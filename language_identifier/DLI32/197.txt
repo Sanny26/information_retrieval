@@ -1,0 +1,6 @@
+﻿Jag hade en SRT med i inlägget men ser nu att jag får fel när jag gör det att jag faktiskt inte får lov att lägga till srt filer tydligen. Så får väl göra som så här istället. http://180upload.com/o5f9jmtbprdj det är SRT filen exporterad från MKVn med samma namn. Tittar jag i media information i Plex/web, så finns där subtitle track med. Jag kan välja subtitle också, men under uppspelning, finns helt enkelt inte några undertexter med över huvudtaget.
+
+Jag skulle tippa på att raderna:
+
+01:08:43 T:5620 M:27% ERROR: Couldn't load font name: __subtitle__(special://xbmc/media/Fonts/), trying to substitute arial.ttf
+01:08:43 T:5620 M:27% ERROR: Couldn't load font name: __subtitleborder__(special://xbmc/media/Fonts/), trying to substitute arial.ttf

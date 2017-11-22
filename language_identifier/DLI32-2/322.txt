@@ -1,0 +1,6 @@
+﻿amit eddig próbáltam:
+játék újra telepítés-autoupdate és manuális updatttel.
+internet explorer újra telepítés korábbi explorerrel, és a legfrissebbel.
+java update/activx update/flash update.
+
+egyik sem vált be, ha haza értem még azt akarom kipróbálni hogy nem e tiltva van az explorer kimenő listáján (lehet hogy letiltottam) viszont azt meg nem tudom hol kell levenni.

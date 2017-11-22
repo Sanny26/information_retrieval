@@ -1,0 +1,6 @@
+﻿så der i stedet kommer flere implementationer af samme løsning... kommer den slags ikke altid til at ende med at der kommer flere forskellige implementationer af løsningen? 
+Lur mig om de ikke bliver inkompatible med hinanden og så skal vi have en hel mappe med papkort så vi kan få hul igennem til det offentlige.
+Er enig med #1 i at NemID 2 er en bedre idé.
+Alm. support på den eksisterende løsning, men ikke noget ny-udvikling og i stedet bygger vi en ny løsning fra bunden.
+
+Hvilken uddannelse har Dennis Flydtkjær siden han er kommet med dette retarderede forslag?

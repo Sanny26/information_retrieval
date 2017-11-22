@@ -1,0 +1,11 @@
+﻿Hallo zusammen 
+
+Weis in diesem Forum jemand bescheid über LED Beleuchtung? 
+
+Mich würde einmal Interessieren wie es mit der Strahlungsintensität von LED Leuchten aussieht. Von Sparlampen weis man ja das sie im Hochfrequenten Bereich sehr gerne Umherstrahlen und das Sie das Netz ziemlich versauen. 
+
+Wie sieht das bei LED`s aus?
+
+LEDs leuchten mit Gleichstrom. Es braucht also einen Gleichrichter, der Oberwellen generiert, die Last ist nicht schön linear. Aber höhere Frequenzen im kHz-Bereich wie bei den Leuchtstoffröhren kommen nicht vor.
+
+Dann könnte man also sagen das für die grüne Welle die im Moment über uns hineinbricht,LED`s die bessere Lösung wäre? 

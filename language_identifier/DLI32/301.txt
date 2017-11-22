@@ -1,0 +1,31 @@
+﻿Alkohol
+Adiksi: Tinggi
+Withdrawal Efek: 
+1. Sakit kepala
+2. nausea (gelap saat berdiri)
+3. Hidung mampet karena kering
+4. Tubuh kering
+Toleransi:Ringan. Dosis yang sama akan memberikan efek yang sama selama beberapa lama
+
+Xanax
+Adiksi: Rendah
+Withdrawal Efek:
+Nyaris tidak ada, hanya gelisah karena kebiasaan
+Toleransi: Tinggi. Efek yang sama harus ditingkatkan 2 kali lipat setiap hari.
+
+Camlet
+Adiksi: Sedang
+Withdrawal Efek:
+1. Gelisah
+2. Perasaan tidak nyaman
+3. Ketergantungan secara psikis
+Toleransi: Sedang. Efek yang sama bisa dihasilkan dengan dosis tetap.
+
+Nikotin
+Adiksi: Sangat Tinggi
+Withdrawal efek:
+1. Pusing
+2. Uring uringan
+3. Secara tidak sadar mencari dan merokok
+4. Pusat syarat tidak nyaman
+Toleransi: Tinggi. Efek yang sama lansung kebal sama sekali sebanyak apapun setelah 3 tahun.

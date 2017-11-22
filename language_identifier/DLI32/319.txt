@@ -1,0 +1,4 @@
+﻿Så kan de gøre det samme for Rejsekort 2.0, Politi samarbejdet og læge journal.
+alt i alt 80 mill. DKK, langt fra de milliarder de enkelte systemer har kostet og et par af dem er endda droppet (selvom vi har lagt penge for dem) og vi får 4 nye virksomheder i danmark som bare kan sit shit (evt. med mulighed for eksport af viden og meget meget mere)
+
+#5: Som andre allerede har nævnt. Jeg er 99% sikker på at Nets allerede har redundans. Derudover hvad hjælper det at udvikle et helt nyt system? DDoS er jo ikke et spørgsmål om systemet virker - men om serverne kan klaret presset.

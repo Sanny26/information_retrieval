@@ -1,0 +1,13 @@
+﻿szép lett és jól áttekinthető. 
+
+de amiről beszéltünk már többször és kérted irjam le.
+
+ha guildboardot vagy itemshopot szeretném használni kilép a játékból. nincs semmi hibaüzenet, mintha siman bezartam volna.
+itemshopban a kezdőlap még bejön, de onnan sehova nem tudok menni mert rögtön kidob, guildboardnal meg ezt sem varja meg. 
+
+amit eddig próbáltam:
+játék újra telepítés-autoupdate és manuális updatttel.
+internet explorer újra telepítés korábbi explorerrel, és a legfrissebbel.
+java update/activx update/flash update.
+
+egyik sem vált be, ha haza értem még azt akarom kipróbálni hogy nem e tiltva van az explorer kimenő listáján (lehet hogy letiltottam) viszont azt meg nem tudom hol kell levenni.

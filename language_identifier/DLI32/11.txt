@@ -1,0 +1,4 @@
+﻿What would constitute the very most important mathematics used in AI and Robotics? Not just game AI, all AI, I realize the obvious answer here is "everything" but I am looking for something more specific. Like, I can see probability being used in machine learning, linear algebra is a given. Anything else?
+
+There is something called Control Theory that deals with many of the problems involved, especially in robotics. It does involve a lot of statistics, for sure, but some calculus is also required.
+Hmmm... Not to brag, but I think I know enough statistics, at least for what I have needed so far.

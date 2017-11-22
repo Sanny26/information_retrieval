@@ -1,0 +1,10 @@
+﻿He might also point
+out all the problems that don't most naturally have this structure.  Likewise, some
+machine learning people might say that the idea of different "states"
+at different "times," again, "just" describes a particular structure of
+Bayes net.  You can also combine #1 and #2 to arrive at POMDPs, which
+are the most general (single-player) discrete--time-and-state problem.  But despite all this, I think the two problems I listed above capture the essence of most things.
+Why has nobody included basic calculus...?
+
+Robotics probably means optical/sensory interpretation would be part of the maths. 
+Im not sure of the names of the areas of mathematics for the different cognitive/perception processing.

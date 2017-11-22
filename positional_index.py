@@ -51,11 +51,11 @@ def create_positional_index(path):
 
 if __name__ == "__main__" :
  
-    path = "/home/sanny/Documents/ir/en.docs.2011/en_BDNews24/"
+    path = "data/"
     index, doc_names = create_positional_index(path)
 
-    pickle.dump(index, open('pos_index.p', 'wb'))
-    pickle.dump(doc_names, open('pos_file_names.p', 'wb'))
+    pickle.dump(index, open('pickles/pos_index.p', 'wb'))
+    pickle.dump(doc_names, open('pickles/pos_file_names.p', 'wb'))
 
     # doc_names = pickle.load(open('file_names.p', 'rb'))
     # index = pickle.load(open('index.p', 'rb'))

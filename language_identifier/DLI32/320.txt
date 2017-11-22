@@ -1,0 +1,5 @@
+﻿#5: Som andre allerede har nævnt. Jeg er 99% sikker på at Nets allerede har redundans. Derudover hvad hjælper det at udvikle et helt nyt system? DDoS er jo ikke et spørgsmål om systemet virker - men om serverne kan klaret presset.
+
+Jeg ser også gerne en anden implementation af NemID, men jeg ser absolut ingen grund til at have mange udbydere, for at få en anden implementation.
+Hvis blot Java blev fjernet fra løsningen og en simpel HTTPS blev benyttet i stedet, så ville NemID være tæt på en optimal løsning.
+Lige meget hvilken implementation der bruges, så vil den være følsom overfor DDOS, men et distribueret system, med flere IP addresser, er naturligvis sværre at floode.

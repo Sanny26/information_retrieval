@@ -1,0 +1,4 @@
+﻿i Plex loggen kan vara av relevans. Men rätt lite information att gå på, trots att jag har Debug logging igång. Där har varit några trådar om samma sak under Windows sektionerna i "den stora" delen av forumet, men de har blivit rätt ignorerade där så för min del har jag bara lagt det till högen av buggar som tydligen inte tänker fixas.
+
+hej jag har problem när jag ska se på plex genom min samsung tv jag ahr bluray filmer som är gjorda till mkv med inbränd text dessa går inte att få text på när jag spelar upp dom på tv.men statarjag samma film
+på min pc i plex och se på filmen i datan då kommer text fram.

@@ -1,0 +1,12 @@
+﻿These people include,
+- control theoreticians
+- roboticists
+- classical AI (planning) people,
+- machine learning researchers, and
+- operations researchers.
+ 
+The differences between these groups are as much social, cultural, and historical, as they are technical.
+ 
+In my own view, there are a small number of core problems that they all aim to solve.  The two that really stand out are,
+
+1.) "Markov decision problems" -- a term that I use broadly to include both discrete time and state spaces (what people normally mean when they say "Markov Decision Problem" (MDP)), and with continuous time and state spaces (which people normally call "optimal control").

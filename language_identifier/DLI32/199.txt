@@ -1,0 +1,7 @@
+﻿subbar i windows-versionen? Jag skulle vilja förstå vad problemet är och hur mycket felsökning som gjorts. Jag vägrar tro det förrän jag får se lite loggar  
+
+Jag har testat på tre olika datorer med Windows 7 Ultimate. Jag har stött på detta problem på flertalet filmer.
+
+Jag har laddat ner MediaInfo och lagt in en film. Vad är det för text/info jag letar efter? Jag hittar inget om Subtitle (?)
+
+Jag hade en SRT med i inlägget men ser nu att jag får fel när jag gör det att jag faktiskt inte får lov att lägga till srt filer tydligen. Så får väl göra som så här istället.

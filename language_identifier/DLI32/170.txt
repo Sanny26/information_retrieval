@@ -1,0 +1,6 @@
+﻿Nos nekem olyan gondom van,hogy letöltöm a klienseket és regisztrálás közben egy-egy filet rossznak érez (broken file).Általában a telepítésnél 5-6. csiknál áll így le,de kb 7-8 install közben.Próbálkoztam flashget-el,amivel ugyebár lecsökken az esélye,hogy letöltés közben hibásodik meg.+azóta újra is telepítettem a windowst és most sem engedi.Esetleg megpróbálom majd torrentel.(általában gamonáról szedem,de gamershell-t is kipróbáltam és ott mégcsak ki sem tudtam csomagolni)
+
+sziasztok én még nagyon kezdö vok de nagynehezen beregiztem magam de meg nem birok belepni a jatékba az miért van?
+megcsináltam az accountot meg mindent a email cimemre adott jelszott és azt átirtam de még nem kaptam email-ben semmit akkor mit tegyek?
+
+HA LENNA VALAKI AKI SEGITENE NAGYON MEGKÖSZÖNNÉM !!!!!!!

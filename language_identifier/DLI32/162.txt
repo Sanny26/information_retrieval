@@ -1,0 +1,10 @@
+﻿xD szóval most azt akarom meg kideriteni és megpróbálni. ha ez sem segít akkor beemozok.
+
+Többen keresték fel a tech részt ezzel a problémával. Állítólag ez egy bug és már jelezve is van a fejlesztők felé. Nézd meg azt amit mondtál + próbáld meg azt (ha eddig nem így volt) hogy alapértelmezett böngészővé teszed az IE-t.
+
+Még a következőt próbálhatod meg:
+
+A hálózati kapcsolatoknál az általad használt kapcsolatra jobb klikk, majd javítás.
+(Ha te vagy a szolgáltatód valamilyen proxyn keresztül kommunikál(sz), az is gázos lehet.)
+
+Hali, nekem olyan problémám lenne,h amikor bentvok a játékba kb. olyan 5 percen belül kiír egy olyat,h "cabalmain.exe alkalmazáshiba" hiába teszem újra a játékot és hiába telepítem újra a Windowst ugyan azt írja ki :S

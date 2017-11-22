@@ -1,0 +1,7 @@
+﻿Haveromnak az a problémája hogy játszik a játékkal és 15 perc után kifagy neki és csak ctrl+alt+del-el tud kilépni.Ha valaki tudna segíteni megköszönném.
+
+Gondolom win7-et vagy vistát használsz. Alt enterrel tedd windows módba és úgy próbáld meg megnyitni item shopot ill. guild boardot, nálam bevált.
+
+sziasztok nekem az a problémám hogy rányomok a startra és amint megjelenik a cabal ablak egyből kilép csak úgy nem ír semmit csak kilép kipróbáltam rá a fenti segítséget újraraktam úgy ahogy le van írva de semmi :/
+
+Csak annyi hozzászólásom lenne a dologhoz , hogy ha pl legyilkolom az atinak a folyamatait és nem tagadja meg nekem a hozzáférést akkor mi lesz?  .

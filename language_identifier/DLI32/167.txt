@@ -1,0 +1,5 @@
+﻿Ez a belépési hiba talá a kliens miatt van vagy amig az 1 honapig nemléptem be megfújhatták az accountomat?
+
+Hát őőőőő.. a bejelentkező ablak alatt nem kéne kijönnie a betűknek, hogy beírhassam a jelszavam? Mert begépeltem, de rögtön kiírja, hogy 'disconnected'. 2-3 napja voltam fent legutóbb, akkor még betudtam lépni és semmi probléma nem volt vele.
+
+Az miért van hogy a mercury meg a marsra ha bekarunk lépni 1 chra 80% esélyel mindig kijön hogy faild connect to server, please try later. De a jupiteren 100% esélyel mindig belehet lépni a channelekre pillanat alatt. Nem értem mit basztak el.

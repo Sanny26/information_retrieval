@@ -20,6 +20,7 @@ def get_tf_idf_weights(path):
             f_path = dr_path+f
             doc_names[doc_no] = f_path
             doc_no += 1
+            print(doc_no)
             
             processed_text = preprocess_file(f_path)
             tf = Counter(processed_text)
@@ -43,7 +44,7 @@ def get_tf_idf_weights(path):
 
 
 if __name__ == "__main__" :
-	path = "/home/sanny/Documents/ir/en.docs.2011/en_BDNews24/"
+	path = "data/"
 	weights, doc_names = get_tf_idf_weights(path)
 
 	pickle.dump(weights, open("pickles/tf-idf.p", "wb"))

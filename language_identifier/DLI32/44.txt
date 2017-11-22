@@ -1,0 +1,3 @@
+﻿ja, es gibt die LEDs, die mit den 3 Grundfarben arbeiten. Die braucht man aber eher dann, wenn man die Farben ändern will, also programmierbare Lichtquellen, die je nach Stimmung mal eher blau oder rot sind. Wenn es nur weiss sein soll, sieht man die gemischten LEDs eher selten. Vielleicht liegt das daran, dass man mit den rein weissen LEDs stärkere Lichtquellen hinbringt, aber das ist jetzt nur eine Vermutung (3 LEDs brauchen halt mehr Platz als nur eine...). 
+
+Der Cosphi dürfte eigentlich nicht so schlecht sein, der wird ziemlich genau bei 1 liegen. Es sind wohl eher die Oberwellen, die stören. 

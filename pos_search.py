@@ -2,6 +2,7 @@ from utils import preprocess
 
 import pickle
 import pdb
+from utils import *
 
 def position_merge(positions):
     """
@@ -28,19 +29,24 @@ def get_search_results(query):
       Return -
           ranked: List of (doc_id, start_position) for the query.
     """
-    result = list()
+    result = ranked = list()
     doc_list = set(doc_names.keys())
+    flag = 0
     for word in query:
         if word in index:
+          flag = 1
           doc_list = doc_list.intersection(index[word].keys())
-    
-    for doc_id in doc_list:
-        positions = list()
-        for word in query:
+        else:
+          return []
+
+    if flag!=0:
+      for doc_id in doc_list:
+          positions = list()
+          for word in query:
             positions.append(index[word][doc_id])
-        doc_result = [(doc_id, x) for x in position_merge(positions)]
-        result += doc_result
-    ranked = sorted(result, key= lambda x: (x[0], x[1]))
+          doc_result = [(doc_id, x) for x in position_merge(positions)]
+          result += doc_result
+      ranked = sorted(result, key= lambda x: (x[0], x[1]))
     return ranked
 
 
@@ -52,3 +58,6 @@ if __name__ == "__main__" :
     search_string = raw_input("Enter the search string\n")
     stm_text = preprocess(search_string)
     ranked_docs = get_search_results(stm_text)
+
+    get_header(len(ranked_docs))
+    print_results(doc_names, ranked_docs, dict())

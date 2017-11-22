@@ -1,0 +1,4 @@
+﻿Jag rekommenderar alla att använda srt-filer, för det stödjs i alla Plexklienter. Men Plex-klienten på datorer stödjer även en bunt andra undertextformat, dock så finns det en begränsning gällande vissa format.
+
+Nu har du nog tyvärr missuppfattat något (eller så råkade du skriva fel).
+SRT = Ett undertextformat.

@@ -1,0 +1,3 @@
+﻿Nu har du nog tyvärr missuppfattat något (eller så råkade du skriva fel).
+SRT = Ett undertextformat. Det stöds 100%igt enligt definitionen. Plex stödjer till och med några hack som "scenen" bestämt att SRT ska stödja, trots att det är utanför SRT-definitionen.
+VOBSUB = Ett annat undertextformat. Bitmap-bilder i form av bokstäver.
