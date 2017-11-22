@@ -31,7 +31,7 @@ class PageRank:
 
     def outgoing(self, pages):
         """Give the number of outgoing links from a page."""
-        return np.array([len(self.link_matrix[self.pages[page], :].nonzero()[0]) for page in pages])
+        return np.array([len(self.link_matrix[page, :].nonzero()[0]) for page in pages])
 
     def page_rank(self, page):
         """Calculate the page rank of a given page."""

@@ -3,7 +3,7 @@ naive_bayes/enron1/*
 data/*
 language_identifier/DLI32/*
 Language_identifier/DLI32-2/*
-
+data*
 
 # Byte-compiled / optimized / DLL files
 
