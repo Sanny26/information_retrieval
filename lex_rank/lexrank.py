@@ -45,7 +45,9 @@ class LexRank():
         P = LexRankCompute(lmatrix.shape[0], lmatrix)
         P.iterate(1)
 
+
         sorte = [i[0] for i in sorted(enumerate(P.page_scores), key=lambda x:x[1], reverse=True)]
+        print(P.page_scores, sorte)
 
         text = raw_sent[sorte[0]].strip() + raw_sent[sorte[1]].strip() + '\n'
 
@@ -53,6 +55,6 @@ class LexRank():
 
 
 if __name__ == "__main__":
-    l = LexRank('/home/sanny/Documents/ir/test/text.txt')
+    l = LexRank('../test/text.txt')
     summary = l.lex_rank()
     print summary
