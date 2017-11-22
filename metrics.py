@@ -93,10 +93,14 @@ def avg_precision(comp_list):
 def MAP(queries, rel_doc_id, retrieved_doc):
 	result = 0
 	for i,query in enumerate(queries):
-		result += avg_precision(np.array(rel_doc_id[i]) == np.array(retrieved_doc[i]))
+		l = min(len(rel_doc_id[i]), len(retrieved_doc[i]))
+		a = rel_doc_id[i][:l]
+		b = retrieved_doc[i][:l]
+		print a,b
+		result += avg_precision(np.array(a) == np.array(b))
 	return result/ float(len(queries))
 
 	
 if __name__ == "__main__" :
-	print MAP([1,2], [[1, 2, 3, 4, 5],[6, 7, 8, 9, 10]], [[1, 6, 7, 4, 5], [6, 7, 8, 9, 10]])
+	print MAP([1,2], [[1, 2, 3, 4, 5, 15, 16],[6, 7, 8, 9, 10]], [[1, 6, 7, 4, 5], [6, 7, 8, 9, 10]])
         pdb.set_trace()
