@@ -2,7 +2,7 @@
 
 from search import get_search_results
 from utils import preprocess, get_header
-from lex_rank.lexrank import LexRank
+from lexrank import LexRank
 import pickle
 # import pdb
 
